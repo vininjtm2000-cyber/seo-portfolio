@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Dharanika SEO Portfolio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Arial', sans-serif; line-height: 1.6; color: #333; background: #f8f9fa; }
+        
+        .nav { 
+            background: #343a40;
+            padding: 1rem;
+            text-align: center;
+        }
+        .nav a { 
+            margin: 0 1rem; 
+            text-decoration: none; 
+            color: white;
+            font-weight: 500;
+        }
+        .nav a:hover { color: #667eea; }
+        
+        .container { max-width: 800px; margin: 0 auto; padding: 2rem 1rem; }
+        
+        .header { 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .contact-section { 
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .contact-info { 
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        .contact-item { 
+            text-align: center;
+            padding: 1.5rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 0.5rem;
+        }
+        .btn:hover { background: #5a6fd8; }
+        
+        .footer {
+            background: #343a40;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-top: 3rem;
+        }
+        
+        .form-group { margin-bottom: 1rem; }
+        .form-group label { display: block; margin-bottom: 0.5rem; font-weight: bold; }
+        .form-group input, .form-group textarea { 
+            width: 100%; 
+            padding: 0.8rem; 
+            border: 1px solid #ddd; 
+            border-radius: 5px; 
+            font-size: 1rem;
+        }
+        .form-group textarea { height: 120px; resize: vertical; }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="header">
+        <h1>Contact Me</h1>
+        <p>Let's Discuss SEO Opportunities</p>
+    </div>
+
+    <div class="container">
+        <div class="contact-section">
+            <h2>Get In Touch</h2>
+            <p>I'm currently seeking SEO analyst positions and available for immediate start. Let's discuss how I can contribute to your team's success.</p>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>📧 Email</h3>
+                    <p>dharanika.seo@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <h3>📞 Phone</h3>
+                    <p>+91 XXXXXXXXXX</p>
+                </div>
+                <div class="contact-item">
+                    <h3>📍 Location</h3>
+                    <p>Chennai, India</p>
+                </div>
+                <div class="contact-item">
+                    <h3>💼 Status</h3>
+                    <p>Available Immediately</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-section">
+            <h2>Send Me a Message</h2>
+            <form action="https://formspree.io/f/your-form-id" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+
+        <div class="contact-section" style="text-align: center;">
+            <h2>What I'm Looking For</h2>
+            <p>• SEO Analyst Positions • Digital Marketing Internships<br>
+               • Entry-Level SEO Roles • Freelance SEO Projects</p>
+            <a href="mailto:dharanika.seo@gmail.com" class="btn">Email Me Now</a>
+            <a href="index.html" class="btn">View Portfolio</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Dharanika - SEO Portfolio</p>
+    </div>
+</body>
+</html>
